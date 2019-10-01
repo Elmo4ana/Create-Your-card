@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <title>Create Your Card</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css"/>
+    <link rel="stylesheet" href="CSS/Card.css">
+    <link rel="icon" href="img/card.png" type="image/png">
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+    <header>
+        <div class="head">
+            <h1>Create Your Card</h1>
+        </div>
+    </header>
+
+    <button id="clickk" class="reset">أعادة أنشاء</button>
+
+    <div class="container">
+        <div class="carding" id="inpp">
+          <div class="row">
+
+            <div class="col-12">
+              <h2 class="text-center">إملأ جميع البيانات</h2>
+              <hr>
+            </div>
+
+            <div class="col-md-4">
+              <label class="col-form-label">أدخل أسمك</label>
+              <input id="name" class="t1 form-control" type="text" placeholder="أدخل أسمك" required>
+            </div>
+
+            <div class="col-md-4">
+              <label class="col-form-label">أدخل بريدك الاكتروني</label>
+              <input id="email" class="t1 form-control" type="text" placeholder="أدخل بريدك الاكتروني" required>
+            </div>
+
+            <div class="col-md-4">
+              <label class="col-form-label">أدخل بلدك</label>
+              <input id="country" class="t1 form-control" type="text" placeholder="أدخل بلدك" required>
+            </div>
+
+            <div class="col-md-4">
+              <label class="col-form-label">أدخل عنوانك</label>
+              <input id="address" class="t1 form-control" type="text" placeholder="أدخل عنوانك" required>
+            </div>
+
+            <div class="col-md-4">
+              <label class="col-form-label">أدخل رقم هاتقك</label>
+              <input id="phone" class="t1 form-control" type="text" placeholder="أدخل رقم هاتقك" maxlength="9" required>
+            </div>
+
+            <div class="col-md-4">
+              <label class="col-form-label">أدخل مسار صورتك</label>
+              <button id="cf" class="form-control btn btn-primary">أختار صورة</button>
+              <input id="img" type="file">
+            </div>
+
+            <div class="col-md-12">
+              <label class="self col-form-label">أكتب عن نفسك</label>
+              <textarea id="self" class="t1 form-control" required></textarea>
+            </div>
+
+          </div>
+        </div>
+
+        <button id="click" disabled>إنشاء بطاقة</button>
+
+        <div class="card" id="cc">
+            <div class="f" id="ff">
+                <header id="hh">
+                    <img id="imgc" src="img/me.jpg">
+                </header>
+                <h3 id="rname">فاروق مثنى</h3>
+                <p id="about">أسمي فاروق قاسم عبده محمد مثنى يمني الجنسية أعيش في تعز ادرس تقنية معلومات واللغة الانجليزيه وارغب في تطوير مهارتي في كل ما يخص التكنولوجيا </p>
+                <span>تحياتي</span><br><br>
+            </div>
+            <div class="b" id="bb">
+                <ul id="uu">
+                    <li id="l1" class="l1">farook1999zz@gmail.com</li>
+                    <li id="l3" class="l3">Yemen</li>
+                    <li id="l4" class="l4">771745333</li>
+                    <li id="l5" class="l5">Taiz/Al-araba</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div>Copyright &copy; 2018 All rights Reserved To <a href="https://fb.com/Elmo4ana" target="_blank">Farouk Mothana</a> &reg;</div>
+    </footer>
+
+    <script src="JS/jquery-3.4.1.min.js"></script>
+    <script src="JS/popper.min.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="JS/ScriptCard.js"></script>
+</body>
+</html>

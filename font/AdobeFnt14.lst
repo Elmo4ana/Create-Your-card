@@ -1,0 +1,29 @@
+%!Adobe-FontList 1.14
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:28-Days-Later-Regular
+FamilyName:28 Days Later
+StyleName:Regular
+FullName:28 Days Later
+MenuName:28 Days Later
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\IT\My All works\website\Card template\Font\Days Later.ttf
+DataFormat:sfntData
+FileLength:284784
+FileModTime:1032569734
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:E:\IT\My All works\website\Card template\Font\pI_yG9UUS9eQ4dbGOEVJY_esZW2xOQ-xsNqO47m55DA.woff2
+FileModTime:1521982484
+%EndFont
+
